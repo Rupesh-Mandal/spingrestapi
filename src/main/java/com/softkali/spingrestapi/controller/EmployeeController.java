@@ -37,12 +37,12 @@ public class EmployeeController {
 
     @GetMapping("/employees")
     public String getEmoployees(){
-        return "huuuur";
+        return "puuuur";
     }
 
      @GetMapping("/employees/{id}")
     public String getEmoployee(@PathVariable("id") Long id){
-        return "huuuur";
+        return "puuuur";
     }
 
     @DeleteMapping("/employees")
